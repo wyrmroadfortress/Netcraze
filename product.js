@@ -33,7 +33,7 @@ async function init(){
       </div>
     </div>
     <section class="spec-section">
-      <div class="section-heading"><div><div class="section-kicker">Технические данные</div><h2>Характеристики</h2></div><div class="section-total">${total(p)} шт. доступно</div></div>
+      <div class="section-heading"><div><div class="section-kicker">Технические данные</div><h2>Характеристики</h2></div></div>
       <div class="spec-table">${specRows||'<div class="spec-row"><div class="spec-key">Данные</div><div class="spec-value">Уточняются</div></div>'}</div>
     </section>`;
 }
