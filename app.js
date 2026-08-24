@@ -1,14 +1,31 @@
-const state={data:null,search:'',city:'',status:'in-stock'};
+const state={data:null,search:'',city:'',status:'in-stock',sort:'default'};
 const $=s=>document.querySelector(s);
 const fmtDate=v=>{if(!v)return '—';const d=new Date(v);return new Intl.DateTimeFormat('ru-RU',{day:'2-digit',month:'2-digit',year:'numeric',hour:'2-digit',minute:'2-digit'}).format(d)};
 const fmtMoney=(v,c='RUB')=>new Intl.NumberFormat('ru-RU',{style:'currency',currency:c||'RUB',maximumFractionDigits:0}).format(Number(v)||0);
 const esc=s=>String(s??'').replace(/[&<>'\"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','\"':'&quot;'}[c]));
 function total(p){return Object.values(p.stocks||{}).reduce((a,b)=>a+(Number(b)||0),0)}
-function officialUrl(name){
-  const title=String(name||'').replace(/^Netcraze\s+/i,'').replace(/\s*\([^)]*\)\s*$/,'').trim();
-  const slug=title.toLowerCase().replace(/\+/g,' plus ').replace(/[^a-z0-9]+/g,'-').replace(/^-+|-+$/g,'');
-  return `https://netcraze.ru/ru/netcraze-${slug}`;
+function render(){
+  const d=state.data||{products:[],updated_at:null};
+  $('#updatedAt').textContent=fmtDate(d.updated_at);
+  $('#syncState').textContent=d.products.length?'Данные обновлены':'Данные ещё не загружены';
+  const q=state.search.trim().toLowerCase();
+  let items=d.products.filter(p=>(!q||`${p.name} ${p.sku||''}`.toLowerCase().includes(q))&&(!state.city||Number(p.stocks?.[state.city]||0)>0)&&(state.status==='all'||total(p)>0));
+  if(state.sort==='price-asc')items.sort((a,b)=>(Number(a.price)||0)-(Number(b.price)||0));
+  if(state.sort==='price-desc')items.sort((a,b)=>(Number(b.price)||0)-(Number(a.price)||0));
+  const cities=[...new Set(d.products.flatMap(p=>Object.keys(p.stocks||{})))].sort((a,b)=>a.localeCompare(b,'ru'));
+  const current=$('#cityFilter').value;
+  $('#cityFilter').innerHTML='<option value="">Все склады</option>'+cities.map(c=>`<option>${esc(c)}</option>`).join('');
+  $('#cityFilter').value=cities.includes(current)?current:'';
+  const allQty=d.products.reduce((s,p)=>s+total(p),0);
+  const cityCount=new Set(d.products.flatMap(p=>Object.entries(p.stocks||{}).filter(([,v])=>Number(v)>0).map(([c])=>c))).size;
+  $('#stats').innerHTML=`<div class="stat"><div class="stat-label">Позиций в наличии</div><div class="stat-value">${d.products.filter(p=>total(p)>0).length}</div></div><div class="stat"><div class="stat-label">Единиц на складах</div><div class="stat-value">${allQty}</div></div><div class="stat"><div class="stat-label">Складов с остатками</div><div class="stat-value">${cityCount}</div></div>`;
+  $('#products').innerHTML=items.map(p=>{const t=total(p);const rows=Object.entries(p.stocks||{}).filter(([,v])=>Number(v)>0).sort((a,b)=>b[1]-a[1]).map(([c,v])=>`<div class="stock-row"><div class="city">${esc(c)}</div><div class="qty">${Number(v)} шт.</div></div>`).join('');return `<article class="product-card clickable" role="link" tabindex="0" data-sku="${esc(p.sku)}"><div class="product-top"><div><div class="product-name">${esc(p.name)}</div>${p.sku?`<div class="product-sku">Артикул: ${esc(p.sku)}</div>`:''}</div><span class="badge ${t?'good':'none'}">${t?'В наличии':'Нет в наличии'}</span></div><div class="price">${fmtMoney(p.price,p.currency)}</div><div class="stock-list">${rows||'<div class="stock-row"><div class="city">Нет доступных остатков</div></div>'}</div><div class="stock-total"><div class="label">Всего доступно</div><div class="num">${t} <small style="font-size:13px;color:var(--muted)">шт.</small></div></div><div class="details-link">Характеристики →</div></article>`}).join('');
+  document.querySelectorAll('.product-card.clickable').forEach(card=>{const go=()=>location.href=`product.html?sku=${encodeURIComponent(card.dataset.sku)}`;card.addEventListener('click',go);card.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();go()}})});
+  $('#empty').classList.toggle('hidden',items.length>0)
 }
-function render(){const d=state.data||{products:[],updated_at:null};$('#updatedAt').textContent=fmtDate(d.updated_at);$('#syncState').textContent=d.products.length?'Данные обновлены':'Данные ещё не загружены';const q=state.search.trim().toLowerCase();let items=d.products.filter(p=>(!q||`${p.name} ${p.sku||''}`.toLowerCase().includes(q))&&(!state.city||Number(p.stocks?.[state.city]||0)>0)&&(state.status==='all'||total(p)>0));const cities=[...new Set(d.products.flatMap(p=>Object.keys(p.stocks||{})))].sort((a,b)=>a.localeCompare(b,'ru'));const current=$('#cityFilter').value;$('#cityFilter').innerHTML='<option value="">Все склады</option>'+cities.map(c=>`<option>${esc(c)}</option>`).join('');$('#cityFilter').value=cities.includes(current)?current:'';const allQty=d.products.reduce((s,p)=>s+total(p),0);const cityCount=new Set(d.products.flatMap(p=>Object.entries(p.stocks||{}).filter(([,v])=>Number(v)>0).map(([c])=>c))).size;$('#stats').innerHTML=`<div class="stat"><div class="stat-label">Позиций в наличии</div><div class="stat-value">${d.products.filter(p=>total(p)>0).length}</div></div><div class="stat"><div class="stat-label">Единиц на складах</div><div class="stat-value">${allQty}</div></div><div class="stat"><div class="stat-label">Складов с остатками</div><div class="stat-value">${cityCount}</div></div>`;$('#products').innerHTML=items.map(p=>{const t=total(p);const rows=Object.entries(p.stocks||{}).filter(([,v])=>Number(v)>0).sort((a,b)=>b[1]-a[1]).map(([c,v])=>`<div class="stock-row"><div class="city">${esc(c)}</div><div class="qty">${Number(v)} шт.</div></div>`).join('');const url=officialUrl(p.name);return `<article class="product-card clickable" role="link" tabindex="0" data-url="${esc(url)}"><div class="product-top"><div><div class="product-name">${esc(p.name)}</div>${p.sku?`<div class="product-sku">Артикул: ${esc(p.sku)}</div>`:''}</div><span class="badge ${t?'good':'none'}">${t?'В наличии':'Нет в наличии'}</span></div><div class="price">${fmtMoney(p.price,p.currency)}</div><div class="stock-list">${rows||'<div class="stock-row"><div class="city">Нет доступных остатков</div></div>'}</div><div class="stock-total"><div class="label">Всего доступно</div><div class="num">${t} <small style="font-size:13px;color:var(--muted)">шт.</small></div></div><div class="details-link">Официальная карточка →</div></article>`}).join('');document.querySelectorAll('.product-card.clickable').forEach(card=>{const go=()=>window.open(card.dataset.url,'_blank','noopener,noreferrer');card.addEventListener('click',go);card.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();go()}})});$('#empty').classList.toggle('hidden',items.length>0)}
 async function init(){try{const r=await fetch(`data/stock.json?v=${Date.now()}`,{cache:'no-store'});state.data=await r.json();render()}catch(e){$('#syncState').textContent='Ошибка загрузки';console.error(e)}}
-$('#search').addEventListener('input',e=>{state.search=e.target.value;render()});$('#cityFilter').addEventListener('change',e=>{state.city=e.target.value;render()});$('#statusFilter').addEventListener('change',e=>{state.status=e.target.value;render()});init();
+$('#search').addEventListener('input',e=>{state.search=e.target.value;render()});
+$('#cityFilter').addEventListener('change',e=>{state.city=e.target.value;render()});
+$('#statusFilter').addEventListener('change',e=>{state.status=e.target.value;render()});
+$('#sortFilter').addEventListener('change',e=>{state.sort=e.target.value;render()});
+init();
