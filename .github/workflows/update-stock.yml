@@ -1,27 +1,37 @@
 name: Update Netcraze stock
+
 on:
   workflow_dispatch:
   schedule:
     - cron: '*/15 * * * *'
+
 permissions:
   contents: write
+
 jobs:
   sync:
     runs-on: ubuntu-latest
+    timeout-minutes: 12
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+
+      - uses: actions/setup-node@v4
         with:
-          python-version: '3.12'
-      - name: Update public stock JSON
+          node-version: '22'
+
+      - name: Install browser
+        run: |
+          npm install --no-save playwright@1.54.2
+          npx playwright install --with-deps chromium
+
+      - name: Collect current stock
         env:
-          SUPPLIER_API_URL: ${{ secrets.SUPPLIER_API_URL }}
-          SUPPLIER_API_TOKEN: ${{ secrets.SUPPLIER_API_TOKEN }}
-          SUPPLIER_API_METHOD: ${{ secrets.SUPPLIER_API_METHOD }}
-          SUPPLIER_API_BODY: ${{ secrets.SUPPLIER_API_BODY }}
-          STOCK_FEED_URL: ${{ secrets.STOCK_FEED_URL }}
-          STOCK_FEED_BEARER: ${{ secrets.STOCK_FEED_BEARER }}
-        run: python scripts/update_stock.py
+          SOURCE_CATALOG_URL: ${{ secrets.SOURCE_CATALOG_URL }}
+          SOURCE_LOGIN_URL: ${{ secrets.SOURCE_LOGIN_URL }}
+          SOURCE_LOGIN: ${{ secrets.SOURCE_LOGIN }}
+          SOURCE_PASSWORD: ${{ secrets.SOURCE_PASSWORD }}
+        run: node scripts/scrape_stock.mjs
+
       - name: Commit changed stock data
         run: |
           git config user.name "stock-bot"
