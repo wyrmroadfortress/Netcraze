@@ -1,0 +1,31 @@
+name: Update Netcraze stock
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '*/15 * * * *'
+permissions:
+  contents: write
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Update public stock JSON
+        env:
+          SUPPLIER_API_URL: ${{ secrets.SUPPLIER_API_URL }}
+          SUPPLIER_API_TOKEN: ${{ secrets.SUPPLIER_API_TOKEN }}
+          SUPPLIER_API_METHOD: ${{ secrets.SUPPLIER_API_METHOD }}
+          SUPPLIER_API_BODY: ${{ secrets.SUPPLIER_API_BODY }}
+          STOCK_FEED_URL: ${{ secrets.STOCK_FEED_URL }}
+          STOCK_FEED_BEARER: ${{ secrets.STOCK_FEED_BEARER }}
+        run: python scripts/update_stock.py
+      - name: Commit changed stock data
+        run: |
+          git config user.name "stock-bot"
+          git config user.email "stock-bot@users.noreply.github.com"
+          git add data/stock.json
+          git diff --cached --quiet || git commit -m "Update stock"
+          git push
