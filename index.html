@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#0b1220" />
+  <title>Netcraze — наличие оборудования</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg-orb bg-orb-a"></div><div class="bg-orb bg-orb-b"></div>
+  <main class="shell">
+    <header class="hero">
+      <div>
+        <div class="eyebrow"><span class="live-dot"></span> Актуальные складские остатки</div>
+        <h1>Netcraze <span>в наличии</span></h1>
+        <p>Текущая доступность оборудования по городам. Данные обновляются автоматически.</p>
+      </div>
+      <div class="updated-card">
+        <div class="updated-label">Последнее обновление</div>
+        <div id="updatedAt" class="updated-value">—</div>
+        <div id="syncState" class="updated-sub">Загрузка данных…</div>
+      </div>
+    </header>
+
+    <section class="toolbar glass">
+      <label class="search-wrap">
+        <span>⌕</span>
+        <input id="search" type="search" placeholder="Найти модель, например Ultra или Giga…" autocomplete="off" />
+      </label>
+      <select id="cityFilter"><option value="">Все города</option></select>
+      <select id="statusFilter">
+        <option value="in-stock">Только в наличии</option>
+        <option value="all">Все модели</option>
+      </select>
+    </section>
+
+    <section class="stats" id="stats"></section>
+    <section class="products" id="products"></section>
+    <div id="empty" class="empty hidden">Ничего не найдено. Попробуйте изменить фильтры.</div>
+
+    <footer>
+      <span>Каталог Netcraze</span>
+      <span>•</span>
+      <span>Остатки обновляются автоматически</span>
+    </footer>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
