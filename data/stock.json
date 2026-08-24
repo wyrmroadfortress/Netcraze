@@ -1,4 +1,36 @@
 {
-  "updated_at": null,
-  "products": []
+  "updated_at": "2026-08-24T17:48:00+04:00",
+  "products": [
+    {"name":"Netcraze Hopper 4G+ (NC-2312)","sku":"1000833614","price":13590,"currency":"RUB","stocks":{"Удаленные склады":4}},
+    {"name":"Netcraze Speedster 4G+ (NC-2911)","sku":"1000833615","price":10790,"currency":"RUB","stocks":{"Москва":403,"Удаленные склады":15}},
+    {"name":"Netcraze Runner 4G (NC-2212)","sku":"1000833617","price":7190,"currency":"RUB","stocks":{"Москва":821,"Удаленные склады":30}},
+    {"name":"Netcraze Ultra (NC-1812)","sku":"1000833618","price":16470,"currency":"RUB","stocks":{"Москва":200,"Удаленные склады":33}},
+    {"name":"Netcraze Viva (NC-1913)","sku":"1000833619","price":5830,"currency":"RUB","stocks":{"Москва":117,"Удаленные склады":98}},
+    {"name":"Netcraze Giga (NC-1012)","sku":"1000833620","price":12790,"currency":"RUB","stocks":{"Москва":332,"Удаленные склады":58}},
+    {"name":"Netcraze Speedster (NC-3013)","sku":"1000833621","price":5510,"currency":"RUB","stocks":{"Москва":796,"Удаленные склады":98}},
+    {"name":"Netcraze Starter (NC-1121)","sku":"1000833622","price":1510,"currency":"RUB","stocks":{"Москва":1023,"Удаленные склады":68}},
+    {"name":"Netcraze Air (NC-1613)","sku":"1000833623","price":3350,"currency":"RUB","stocks":{"Москва":760,"Удаленные склады":154}},
+    {"name":"Netcraze Start (NC-1112)","sku":"1000834700","price":1910,"currency":"RUB","stocks":{"Москва":1332,"Удаленные склады":225}},
+    {"name":"Netcraze Explorer 4G (NC-4910)","sku":"1000834701","price":7990,"currency":"RUB","stocks":{"Москва":248,"Удаленные склады":9}},
+    {"name":"Netcraze Speedster DSL (NC-2113)","sku":"1000838254","price":6070,"currency":"RUB","stocks":{"Удаленные склады":1}},
+    {"name":"Netcraze Hopper DSL (NC-3611)","sku":"1000838259","price":9830,"currency":"RUB","stocks":{"Удаленные склады":1}},
+    {"name":"Netcraze Challenger (NC-3910)","sku":"1000849931","price":6390,"currency":"RUB","stocks":{"Москва":282,"Удаленные склады":18}},
+    {"name":"Netcraze 4G (NC-1213)","sku":"1000850818","price":2630,"currency":"RUB","stocks":{"Москва":232,"Удаленные склады":84}},
+    {"name":"Netcraze Launcher (NC-1221)","sku":"1000850819","price":2150,"currency":"RUB","stocks":{"Москва":484,"Удаленные склады":45}},
+    {"name":"Netcraze Extra (NC-1714)","sku":"1000850821","price":3990,"currency":"RUB","stocks":{"Москва":415,"Удаленные склады":56}},
+    {"name":"Netcraze Carrier (NC-1721)","sku":"1000850822","price":3030,"currency":"RUB","stocks":{"Москва":1059,"Удаленные склады":32}},
+    {"name":"Netcraze Racer (NC-4010)","sku":"1000850823","price":4790,"currency":"RUB","stocks":{"Удаленные склады":82}},
+    {"name":"Netcraze Challenger SE (NC-3911)","sku":"1000850824","price":6310,"currency":"RUB","stocks":{"Москва":322,"Удаленные склады":1}},
+    {"name":"Netcraze Sprinter (NC-3711)","sku":"1000850825","price":9030,"currency":"RUB","stocks":{"Москва":184,"Удаленные склады":26}},
+    {"name":"Netcraze Sprinter SE (NC-3712)","sku":"1000850827","price":8790,"currency":"RUB","stocks":{"Москва":286,"Удаленные склады":5}},
+    {"name":"Netcraze Hopper (NC-3811)","sku":"1000850828","price":9830,"currency":"RUB","stocks":{"Москва":241,"Удаленные склады":49}},
+    {"name":"Netcraze Hopper SE (NC-3812)","sku":"1000850829","price":9590,"currency":"RUB","stocks":{"Москва":223}},
+    {"name":"Netcraze Buddy 4 (NC-3211)","sku":"1000849932","price":1990,"currency":"RUB","stocks":{"Москва":329,"Удаленные склады":6}},
+    {"name":"Netcraze Buddy 5 (NC-3311)","sku":"1000849933","price":3510,"currency":"RUB","stocks":{"Москва":104,"Удаленные склады":6}},
+    {"name":"Netcraze Buddy 6 SE (NC-4410)","sku":"1000849935","price":5270,"currency":"RUB","stocks":{"Москва":575,"Удаленные склады":1}},
+    {"name":"Netcraze Buddy 6 (NC-3411)","sku":"1000850830","price":5270,"currency":"RUB","stocks":{"Москва":335,"Удаленные склады":5}},
+    {"name":"Netcraze Orbiter 6 (NAP-630)","sku":"1000833616","price":8790,"currency":"RUB","stocks":{"Москва":502,"Удаленные склады":30}},
+    {"name":"Netcraze Stellar 6 (NAP-650)","sku":"1000859230","price":10870,"currency":"RUB","stocks":{"Москва":455,"Удаленные склады":44}},
+    {"name":"Netcraze PoE+ Adapter (NPA-150)","sku":"1000860441","price":1590,"currency":"RUB","stocks":{"Москва":247}}
+  ]
 }
