@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-26T12:45:02.996654+00:00",
+  "updated_at": "2026-08-26T13:00:03.500878+00:00",
   "products": [
     {
       "name": "Netcraze 4G (NC-1213)",
@@ -106,7 +106,7 @@
       "price": 12790,
       "currency": "RUB",
       "stocks": {
-        "Москва": 321
+        "Москва": 681
       }
     },
     {
@@ -151,7 +151,7 @@
       "price": 8790,
       "currency": "RUB",
       "stocks": {
-        "Москва": 436
+        "Москва": 438
       }
     },
     {
@@ -178,7 +178,7 @@
       "price": 5510,
       "currency": "RUB",
       "stocks": {
-        "Москва": 692
+        "Москва": 691
       }
     },
     {
@@ -188,6 +188,15 @@
       "currency": "RUB",
       "stocks": {
         "Москва": 405
+      }
+    },
+    {
+      "name": "Netcraze Sprinter (NC-3711)",
+      "sku": "1000850825",
+      "price": 9030,
+      "currency": "RUB",
+      "stocks": {
+        "Москва": 246
       }
     },
     {
@@ -218,12 +227,21 @@
       }
     },
     {
+      "name": "Netcraze Ultra (NC-1812)",
+      "sku": "1000833618",
+      "price": 16470,
+      "currency": "RUB",
+      "stocks": {
+        "Москва": 360
+      }
+    },
+    {
       "name": "Netcraze Viva (NC-1913)",
       "sku": "1000833619",
       "price": 5830,
       "currency": "RUB",
       "stocks": {
-        "Москва": 86
+        "Москва": 446
       }
     }
   ]
