@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-27T15:00:04.053810+00:00",
+  "updated_at": "2026-08-27T15:15:04.734517+00:00",
   "products": [
     {
       "name": "Netcraze 4G (NC-1213)",
@@ -7,7 +7,7 @@
       "price": 2630,
       "currency": "RUB",
       "stocks": {
-        "Москва": 202
+        "Москва": 102
       }
     },
     {
@@ -16,7 +16,7 @@
       "price": 3350,
       "currency": "RUB",
       "stocks": {
-        "Москва": 574
+        "Москва": 74
       }
     },
     {
@@ -25,7 +25,7 @@
       "price": 1990,
       "currency": "RUB",
       "stocks": {
-        "Москва": 328
+        "Москва": 268
       }
     },
     {
@@ -34,7 +34,7 @@
       "price": 3510,
       "currency": "RUB",
       "stocks": {
-        "Москва": 89
+        "Москва": 29
       }
     },
     {
@@ -43,7 +43,7 @@
       "price": 5270,
       "currency": "RUB",
       "stocks": {
-        "Москва": 316
+        "Москва": 256
       }
     },
     {
@@ -52,7 +52,7 @@
       "price": 5270,
       "currency": "RUB",
       "stocks": {
-        "Москва": 563
+        "Москва": 503
       }
     },
     {
@@ -61,7 +61,7 @@
       "price": 3030,
       "currency": "RUB",
       "stocks": {
-        "Москва": 1093
+        "Москва": 693
       }
     },
     {
@@ -70,7 +70,7 @@
       "price": 6390,
       "currency": "RUB",
       "stocks": {
-        "Москва": 214
+        "Москва": 64
       }
     },
     {
@@ -79,7 +79,7 @@
       "price": 6310,
       "currency": "RUB",
       "stocks": {
-        "Москва": 312
+        "Москва": 162
       }
     },
     {
@@ -88,7 +88,7 @@
       "price": 7990,
       "currency": "RUB",
       "stocks": {
-        "Москва": 242
+        "Москва": 82
       }
     },
     {
@@ -97,25 +97,7 @@
       "price": 3990,
       "currency": "RUB",
       "stocks": {
-        "Москва": 382
-      }
-    },
-    {
-      "name": "Netcraze Giga (NC-1012)",
-      "sku": "1000833620",
-      "price": 12790,
-      "currency": "RUB",
-      "stocks": {
-        "Москва": 810
-      }
-    },
-    {
-      "name": "Netcraze Hopper (NC-3811)",
-      "sku": "1000850828",
-      "price": 9830,
-      "currency": "RUB",
-      "stocks": {
-        "Москва": 339
+        "Москва": 82
       }
     },
     {
@@ -124,16 +106,7 @@
       "price": 9590,
       "currency": "RUB",
       "stocks": {
-        "Москва": 285
-      }
-    },
-    {
-      "name": "Netcraze Launcher (NC-1221)",
-      "sku": "1000850819",
-      "price": 2150,
-      "currency": "RUB",
-      "stocks": {
-        "Москва": 383
+        "Москва": 185
       }
     },
     {
@@ -142,16 +115,7 @@
       "price": 8790,
       "currency": "RUB",
       "stocks": {
-        "Москва": 275
-      }
-    },
-    {
-      "name": "Netcraze Orbiter 6 (NAP-630)",
-      "sku": "1000833616",
-      "price": 8790,
-      "currency": "RUB",
-      "stocks": {
-        "Москва": 872
+        "Москва": 175
       }
     },
     {
@@ -169,7 +133,7 @@
       "price": 7190,
       "currency": "RUB",
       "stocks": {
-        "Москва": 812
+        "Москва": 462
       }
     },
     {
@@ -178,7 +142,7 @@
       "price": 5510,
       "currency": "RUB",
       "stocks": {
-        "Москва": 671
+        "Москва": 171
       }
     },
     {
@@ -187,7 +151,7 @@
       "price": 10790,
       "currency": "RUB",
       "stocks": {
-        "Москва": 405
+        "Москва": 255
       }
     },
     {
@@ -196,7 +160,7 @@
       "price": 9030,
       "currency": "RUB",
       "stocks": {
-        "Москва": 418
+        "Москва": 118
       }
     },
     {
@@ -205,34 +169,7 @@
       "price": 1910,
       "currency": "RUB",
       "stocks": {
-        "Москва": 1328
-      }
-    },
-    {
-      "name": "Netcraze Starter (NC-1121)",
-      "sku": "1000833622",
-      "price": 1510,
-      "currency": "RUB",
-      "stocks": {
-        "Москва": 819
-      }
-    },
-    {
-      "name": "Netcraze Stellar 6 (NAP-650)",
-      "sku": "1000859230",
-      "price": 10870,
-      "currency": "RUB",
-      "stocks": {
-        "Москва": 463
-      }
-    },
-    {
-      "name": "Netcraze Ultra (NC-1812)",
-      "sku": "1000833618",
-      "price": 16470,
-      "currency": "RUB",
-      "stocks": {
-        "Москва": 149
+        "Москва": 328
       }
     },
     {
@@ -241,7 +178,7 @@
       "price": 5830,
       "currency": "RUB",
       "stocks": {
-        "Москва": 439
+        "Москва": 139
       }
     }
   ]
