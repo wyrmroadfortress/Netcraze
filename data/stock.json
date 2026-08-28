@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-28T23:00:05.450601+00:00",
+  "updated_at": "2026-08-28T23:15:03.088703+00:00",
   "products": [
     {
       "name": "Netcraze 4G (NC-1213)",
@@ -98,15 +98,6 @@
       "currency": "RUB",
       "stocks": {
         "Москва": 48
-      }
-    },
-    {
-      "name": "Netcraze Giga (NC-1012)",
-      "sku": "1000833620",
-      "price": 12790,
-      "currency": "RUB",
-      "stocks": {
-        "Москва": 29
       }
     },
     {
