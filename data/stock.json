@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-31T08:45:02.575795+00:00",
+  "updated_at": "2026-08-31T09:00:06.423748+00:00",
   "products": [
     {
       "name": "Netcraze 4G (NC-1213)",
@@ -16,7 +16,8 @@
       "price": 3350,
       "currency": "RUB",
       "stocks": {
-        "Москва": 74
+        "Москва": 74,
+        "Удаленные склады": 266
       }
     },
     {
@@ -101,6 +102,24 @@
       }
     },
     {
+      "name": "Netcraze Giga (NC-1012)",
+      "sku": "1000833620",
+      "price": 12790,
+      "currency": "RUB",
+      "stocks": {
+        "Удаленные склады": 170
+      }
+    },
+    {
+      "name": "Netcraze Hopper (NC-3811)",
+      "sku": "1000850828",
+      "price": 9830,
+      "currency": "RUB",
+      "stocks": {
+        "Удаленные склады": 179
+      }
+    },
+    {
       "name": "Netcraze Hopper SE (NC-3812)",
       "sku": "1000850829",
       "price": 9590,
@@ -110,12 +129,30 @@
       }
     },
     {
+      "name": "Netcraze Launcher (NC-1221)",
+      "sku": "1000850819",
+      "price": 2150,
+      "currency": "RUB",
+      "stocks": {
+        "Удаленные склады": 751
+      }
+    },
+    {
       "name": "Netcraze Sprinter SE (NC-3712)",
       "sku": "1000850827",
       "price": 8790,
       "currency": "RUB",
       "stocks": {
         "Москва": 175
+      }
+    },
+    {
+      "name": "Netcraze Orbiter 6 (NAP-630)",
+      "sku": "1000833616",
+      "price": 8790,
+      "currency": "RUB",
+      "stocks": {
+        "Удаленные склады": 123
       }
     },
     {
@@ -142,7 +179,8 @@
       "price": 5510,
       "currency": "RUB",
       "stocks": {
-        "Москва": 93
+        "Москва": 93,
+        "Удаленные склады": 360
       }
     },
     {
@@ -173,12 +211,22 @@
       }
     },
     {
+      "name": "Netcraze Starter (NC-1121)",
+      "sku": "1000833622",
+      "price": 1510,
+      "currency": "RUB",
+      "stocks": {
+        "Удаленные склады": 187
+      }
+    },
+    {
       "name": "Netcraze Viva (NC-1913)",
       "sku": "1000833619",
       "price": 5830,
       "currency": "RUB",
       "stocks": {
-        "Москва": 133
+        "Москва": 133,
+        "Удаленные склады": 120
       }
     }
   ]
