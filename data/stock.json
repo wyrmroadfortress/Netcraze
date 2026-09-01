@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-31T23:45:03.622829+00:00",
+  "updated_at": "2026-09-01T00:00:02.783825+00:00",
   "products": [
     {
       "name": "Netcraze 4G (NC-1213)",
@@ -142,7 +142,7 @@
       "price": 8790,
       "currency": "RUB",
       "stocks": {
-        "Москва": 4
+        "Москва": 1
       }
     },
     {
@@ -197,15 +197,6 @@
       "currency": "RUB",
       "stocks": {
         "Москва": 318
-      }
-    },
-    {
-      "name": "Netcraze Starter (NC-1121)",
-      "sku": "1000833622",
-      "price": 1510,
-      "currency": "RUB",
-      "stocks": {
-        "Москва": 4
       }
     },
     {
