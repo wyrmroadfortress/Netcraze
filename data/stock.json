@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-01T08:45:02.913600+00:00",
+  "updated_at": "2026-09-01T09:00:10.383866+00:00",
   "products": [
     {
       "name": "Netcraze 4G (NC-1213)",
@@ -128,6 +128,15 @@
       }
     },
     {
+      "name": "Netcraze Launcher (NC-1221)",
+      "sku": "1000850819",
+      "price": 2150,
+      "currency": "RUB",
+      "stocks": {
+        "Москва": 751
+      }
+    },
+    {
       "name": "Netcraze Sprinter SE (NC-3712)",
       "sku": "1000850827",
       "price": 8790,
@@ -214,7 +223,7 @@
       "price": 16470,
       "currency": "RUB",
       "stocks": {
-        "Москва": 120
+        "Москва": 320
       }
     },
     {
