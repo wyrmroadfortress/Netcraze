@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-17T23:00:03.802182+00:00",
+  "updated_at": "2026-09-17T23:15:02.893552+00:00",
   "products": [
     {
       "name": "Netcraze Buddy 4 (NC-3211)",
@@ -170,15 +170,6 @@
       "currency": "RUB",
       "stocks": {
         "Москва": 100
-      }
-    },
-    {
-      "name": "Netcraze Starter (NC-1121)",
-      "sku": "1000833622",
-      "price": 1510,
-      "currency": "RUB",
-      "stocks": {
-        "Москва": 20
       }
     },
     {
