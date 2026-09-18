@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-18T13:45:04.486930+00:00",
+  "updated_at": "2026-09-18T14:00:02.518923+00:00",
   "products": [
     {
       "name": "Netcraze 4G (NC-1213)",
@@ -167,6 +167,15 @@
       "name": "Netcraze Runner 4G (NC-2212)",
       "sku": "1000833617",
       "price": 7190,
+      "currency": "RUB",
+      "stocks": {
+        "Москва": 100
+      }
+    },
+    {
+      "name": "Netcraze Speedster (NC-3013)",
+      "sku": "1000833621",
+      "price": 5510,
       "currency": "RUB",
       "stocks": {
         "Москва": 100
