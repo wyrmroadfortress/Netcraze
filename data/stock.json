@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-09-18T07:15:05.653451+00:00",
+  "updated_at": "2026-09-18T07:30:02.494099+00:00",
   "products": [
+    {
+      "name": "Netcraze Air (NC-1613)",
+      "sku": "1000833623",
+      "price": 3350,
+      "currency": "RUB",
+      "stocks": {
+        "Удаленные склады": 100
+      }
+    },
     {
       "name": "Netcraze Buddy 4 (NC-3211)",
       "sku": "1000849932",
@@ -16,7 +25,8 @@
       "price": 3510,
       "currency": "RUB",
       "stocks": {
-        "Москва": 29
+        "Москва": 29,
+        "Удаленные склады": 48
       }
     },
     {
@@ -43,7 +53,8 @@
       "price": 3030,
       "currency": "RUB",
       "stocks": {
-        "Москва": 100
+        "Москва": 100,
+        "Удаленные склады": 100
       }
     },
     {
@@ -74,12 +85,22 @@
       }
     },
     {
+      "name": "Netcraze Giga (NC-1012)",
+      "sku": "1000833620",
+      "price": 12790,
+      "currency": "RUB",
+      "stocks": {
+        "Удаленные склады": 100
+      }
+    },
+    {
       "name": "Netcraze Hopper (NC-3811)",
       "sku": "1000850828",
       "price": 9830,
       "currency": "RUB",
       "stocks": {
-        "Москва": 4
+        "Москва": 4,
+        "Удаленные склады": 100
       }
     },
     {
@@ -137,6 +158,15 @@
       }
     },
     {
+      "name": "Netcraze Speedster (NC-3013)",
+      "sku": "1000833621",
+      "price": 5510,
+      "currency": "RUB",
+      "stocks": {
+        "Удаленные склады": 100
+      }
+    },
+    {
       "name": "Netcraze Speedster 4G+ (NC-2911)",
       "sku": "1000833615",
       "price": 10790,
@@ -173,6 +203,15 @@
       }
     },
     {
+      "name": "Netcraze Starter (NC-1121)",
+      "sku": "1000833622",
+      "price": 1510,
+      "currency": "RUB",
+      "stocks": {
+        "Удаленные склады": 100
+      }
+    },
+    {
       "name": "Netcraze Stellar 6 (NAP-650)",
       "sku": "1000859230",
       "price": 10870,
@@ -188,6 +227,15 @@
       "currency": "RUB",
       "stocks": {
         "Москва": 100
+      }
+    },
+    {
+      "name": "Netcraze Viva (NC-1913)",
+      "sku": "1000833619",
+      "price": 5830,
+      "currency": "RUB",
+      "stocks": {
+        "Удаленные склады": 100
       }
     }
   ]
