@@ -1,13 +1,22 @@
 {
-  "updated_at": "2026-09-21T10:15:06.875956+00:00",
+  "updated_at": "2026-09-21T10:30:02.886083+00:00",
   "products": [
+    {
+      "name": "Netcraze 4G (NC-1213)",
+      "sku": "1000850818",
+      "price": 2630,
+      "currency": "RUB",
+      "stocks": {
+        "Москва": 27
+      }
+    },
     {
       "name": "Netcraze Air (NC-1613)",
       "sku": "1000833623",
       "price": 3350,
       "currency": "RUB",
       "stocks": {
-        "Москва": 72
+        "Москва": 100
       }
     },
     {
@@ -74,6 +83,15 @@
       }
     },
     {
+      "name": "Netcraze Extra (NC-1714)",
+      "sku": "1000850821",
+      "price": 3990,
+      "currency": "RUB",
+      "stocks": {
+        "Москва": 100
+      }
+    },
+    {
       "name": "Netcraze Giga (NC-1012)",
       "sku": "1000833620",
       "price": 12790,
@@ -104,6 +122,15 @@
       "name": "Netcraze Launcher (NC-1221)",
       "sku": "1000850819",
       "price": 2150,
+      "currency": "RUB",
+      "stocks": {
+        "Москва": 100
+      }
+    },
+    {
+      "name": "Netcraze Titan SE (NC-4210)",
+      "sku": "1000871400",
+      "price": 19190,
       "currency": "RUB",
       "stocks": {
         "Москва": 100
