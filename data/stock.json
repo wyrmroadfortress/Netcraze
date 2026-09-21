@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21T04:45:03.231796+00:00",
+  "updated_at": "2026-09-21T05:00:04.677526+00:00",
   "products": [
     {
       "name": "Netcraze Air (NC-1613)",
@@ -188,15 +188,6 @@
       "currency": "RUB",
       "stocks": {
         "Москва": 100
-      }
-    },
-    {
-      "name": "Netcraze Starter (NC-1121)",
-      "sku": "1000833622",
-      "price": 1510,
-      "currency": "RUB",
-      "stocks": {
-        "Москва": 3
       }
     },
     {
