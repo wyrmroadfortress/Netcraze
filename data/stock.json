@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-22T11:15:04.300422+00:00",
+  "updated_at": "2026-09-22T11:30:04.390649+00:00",
   "products": [
     {
       "name": "Netcraze 4G (NC-1213)",
@@ -134,15 +134,6 @@
       "currency": "RUB",
       "stocks": {
         "Москва": 100
-      }
-    },
-    {
-      "name": "Netcraze PoE+ Adapter (NPA-150)",
-      "sku": "1000860441",
-      "price": 1590,
-      "currency": "RUB",
-      "stocks": {
-        "Москва": 6
       }
     },
     {
