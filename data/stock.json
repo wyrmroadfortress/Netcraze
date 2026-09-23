@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-23T22:00:03.364425+00:00",
+  "updated_at": "2026-09-23T22:15:03.191332+00:00",
   "products": [
     {
       "name": "Netcraze 4G (NC-1213)",
@@ -115,7 +115,7 @@
       "price": 9590,
       "currency": "RUB",
       "stocks": {
-        "Москва": 66
+        "Москва": 69
       }
     },
     {
@@ -128,12 +128,21 @@
       }
     },
     {
+      "name": "Netcraze Titan SE (NC-4210)",
+      "sku": "1000871400",
+      "price": 19190,
+      "currency": "RUB",
+      "stocks": {
+        "Москва": 2
+      }
+    },
+    {
       "name": "Netcraze Orbiter 6 (NAP-630)",
       "sku": "1000833616",
       "price": 8790,
       "currency": "RUB",
       "stocks": {
-        "Москва": 81
+        "Москва": 100
       }
     },
     {
