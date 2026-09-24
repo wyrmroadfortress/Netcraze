@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-24T03:00:03.452201+00:00",
+  "updated_at": "2026-09-24T03:15:03.052229+00:00",
   "products": [
     {
       "name": "Netcraze 4G (NC-1213)",
@@ -125,15 +125,6 @@
       "currency": "RUB",
       "stocks": {
         "Москва": 100
-      }
-    },
-    {
-      "name": "Netcraze Titan SE (NC-4210)",
-      "sku": "1000871400",
-      "price": 19190,
-      "currency": "RUB",
-      "stocks": {
-        "Москва": 2
       }
     },
     {
