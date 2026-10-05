@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-05T08:15:03.170389+00:00",
+  "updated_at": "2026-10-05T08:30:03.476621+00:00",
   "products": [
     {
       "name": "Netcraze 4G (NC-1213)",
@@ -26,6 +26,15 @@
       "currency": "RUB",
       "stocks": {
         "Москва": 16
+      }
+    },
+    {
+      "name": "Netcraze Buddy 6 (NC-3411)",
+      "sku": "1000850830",
+      "price": 5270,
+      "currency": "RUB",
+      "stocks": {
+        "Москва": 97
       }
     },
     {
