@@ -110,6 +110,14 @@
     "images/products/nc-1221/5.png",
     "images/products/nc-1221/6.png"
   ],
+  "1000833616": [
+    "images/products/nap-630/1.jpg",
+    "images/products/nap-630/2.png",
+    "images/products/nap-630/3.png",
+    "images/products/nap-630/4.png",
+    "images/products/nap-630/5.png",
+    "images/products/nap-630/6.png"
+  ],
   "1000860441": [
     "images/products/npa-150/1.png",
     "images/products/npa-150/2.png",
@@ -186,29 +194,5 @@
     "images/products/nap-650/4.png",
     "images/products/nap-650/5.png",
     "images/products/nap-650/6.png"
-  ],
-  "1000871400": [
-    "images/products/nc-4210/1.jpg",
-    "images/products/nc-4210/2.jpg",
-    "images/products/nc-4210/3.jpg",
-    "images/products/nc-4210/4.jpg",
-    "images/products/nc-4210/5.jpg",
-    "images/products/nc-4210/6.png"
-  ],
-  "1000833618": [
-    "images/products/nc-1812/1.png",
-    "images/products/nc-1812/2.png",
-    "images/products/nc-1812/3.png",
-    "images/products/nc-1812/4.png",
-    "images/products/nc-1812/5.png",
-    "images/products/nc-1812/6.png"
-  ],
-  "1000833619": [
-    "images/products/nc-1913/1.png",
-    "images/products/nc-1913/2.png",
-    "images/products/nc-1913/3.png",
-    "images/products/nc-1913/4.png",
-    "images/products/nc-1913/5.png",
-    "images/products/nc-1913/6.png"
   ]
 }
