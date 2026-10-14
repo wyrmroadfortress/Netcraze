@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14T13:00:07.644062+00:00",
+  "updated_at": "2026-10-14T13:15:03.366764+00:00",
   "products": [
     {
       "name": "Netcraze 4G (NC-1213)",
@@ -43,7 +43,7 @@
       "price": 5270,
       "currency": "RUB",
       "stocks": {
-        "Москва": 13
+        "Москва": 61
       }
     },
     {
@@ -97,7 +97,7 @@
       "price": 3990,
       "currency": "RUB",
       "stocks": {
-        "Москва": 85
+        "Москва": 84
       }
     },
     {
@@ -134,6 +134,15 @@
       "currency": "RUB",
       "stocks": {
         "Москва": 100
+      }
+    },
+    {
+      "name": "Netcraze Atlas SE (NC-4310)",
+      "sku": "1000875681",
+      "price": 15990,
+      "currency": "RUB",
+      "stocks": {
+        "Москва": 18
       }
     },
     {
@@ -203,6 +212,15 @@
       "name": "Netcraze Sprinter SE (NC-3712)",
       "sku": "1000850827",
       "price": 8790,
+      "currency": "RUB",
+      "stocks": {
+        "Москва": 100
+      }
+    },
+    {
+      "name": "Netcraze Start (NC-1112)",
+      "sku": "1000834700",
+      "price": 1910,
       "currency": "RUB",
       "stocks": {
         "Москва": 100
