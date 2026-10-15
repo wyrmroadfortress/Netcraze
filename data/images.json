@@ -7,19 +7,19 @@
     "images/products/nc-1213/5.png",
     "images/products/nc-1213/6.png"
   ],
+  "1000833623": [
+    "images/products/nc-1613/1.png",
+    "images/products/nc-1613/2.png",
+    "images/products/nc-1613/3.png",
+    "images/products/nc-1613/4.png",
+    "images/products/nc-1613/5.png",
+    "images/products/nc-1613/6.png"
+  ],
   "1000849932": [
     "images/products/nc-3211/1.png",
     "images/products/nc-3211/2.png",
     "images/products/nc-3211/3.png",
     "images/products/nc-3211/4.png"
-  ],
-  "1000849933": [
-    "images/products/nc-3311/1.jpg",
-    "images/products/nc-3311/2.png",
-    "images/products/nc-3311/3.png",
-    "images/products/nc-3311/4.png",
-    "images/products/nc-3311/5.png",
-    "images/products/nc-3311/6.jpg"
   ],
   "1000849935": [
     "images/products/nc-4410/1.png",
@@ -180,5 +180,13 @@
     "images/products/nc-1812/4.png",
     "images/products/nc-1812/5.png",
     "images/products/nc-1812/6.png"
+  ],
+  "1000833619": [
+    "images/products/nc-1913/1.png",
+    "images/products/nc-1913/2.png",
+    "images/products/nc-1913/3.png",
+    "images/products/nc-1913/4.png",
+    "images/products/nc-1913/5.png",
+    "images/products/nc-1913/6.png"
   ]
 }
