@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-15T09:45:04.591480+00:00",
+  "updated_at": "2026-10-15T10:00:03.892346+00:00",
   "products": [
     {
       "name": "Netcraze 4G (NC-1213)",
@@ -203,15 +203,6 @@
       "name": "Netcraze Starter (NC-1121)",
       "sku": "1000833622",
       "price": 1510,
-      "currency": "RUB",
-      "stocks": {
-        "Москва": 100
-      }
-    },
-    {
-      "name": "Netcraze Stellar 6 (NAP-650)",
-      "sku": "1000859230",
-      "price": 10870,
       "currency": "RUB",
       "stocks": {
         "Москва": 100
