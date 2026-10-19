@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-19T07:45:06.346333+00:00",
+  "updated_at": "2026-10-19T08:00:02.962593+00:00",
   "products": [
     {
       "name": "Netcraze 4G (NC-1213)",
@@ -107,15 +107,6 @@
       "currency": "RUB",
       "stocks": {
         "Москва": 100
-      }
-    },
-    {
-      "name": "Netcraze Hopper 4G+ (NC-2312)",
-      "sku": "1000833614",
-      "price": 13590,
-      "currency": "RUB",
-      "stocks": {
-        "Москва": 47
       }
     },
     {
