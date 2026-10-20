@@ -1,4 +1,212 @@
 {
-  "updated_at": "2026-10-20T20:00:08.199912+00:00",
-  "products": []
+  "updated_at": "2026-10-20T20:15:05.381726+00:00",
+  "products": [
+    {
+      "name": "Netcraze 4G (NC-1213)",
+      "sku": "1000850818",
+      "price": 2630,
+      "currency": "RUB",
+      "stocks": {
+        "Москва": 100
+      }
+    },
+    {
+      "name": "Netcraze Buddy 4 (NC-3211)",
+      "sku": "1000849932",
+      "price": 1990,
+      "currency": "RUB",
+      "stocks": {
+        "Москва": 40
+      }
+    },
+    {
+      "name": "Netcraze Buddy 5 (NC-3311)",
+      "sku": "1000849933",
+      "price": 3510,
+      "currency": "RUB",
+      "stocks": {
+        "Москва": 89
+      }
+    },
+    {
+      "name": "Netcraze Buddy 6 SE (NC-4410)",
+      "sku": "1000849935",
+      "price": 5270,
+      "currency": "RUB",
+      "stocks": {
+        "Москва": 100
+      }
+    },
+    {
+      "name": "Netcraze Carrier (NC-1721)",
+      "sku": "1000850822",
+      "price": 3030,
+      "currency": "RUB",
+      "stocks": {
+        "Москва": 100
+      }
+    },
+    {
+      "name": "Netcraze Challenger (NC-3910)",
+      "sku": "1000849931",
+      "price": 6950,
+      "currency": "RUB",
+      "stocks": {
+        "Москва": 100
+      }
+    },
+    {
+      "name": "Netcraze Challenger SE (NC-3911)",
+      "sku": "1000850824",
+      "price": 7190,
+      "currency": "RUB",
+      "stocks": {
+        "Москва": 100
+      }
+    },
+    {
+      "name": "Netcraze Explorer 4G (NC-4910)",
+      "sku": "1000834701",
+      "price": 7990,
+      "currency": "RUB",
+      "stocks": {
+        "Москва": 78
+      }
+    },
+    {
+      "name": "Netcraze Extra (NC-1714)",
+      "sku": "1000850821",
+      "price": 3990,
+      "currency": "RUB",
+      "stocks": {
+        "Москва": 70
+      }
+    },
+    {
+      "name": "Netcraze Hopper (NC-3811)",
+      "sku": "1000850828",
+      "price": 9830,
+      "currency": "RUB",
+      "stocks": {
+        "Москва": 100
+      }
+    },
+    {
+      "name": "Netcraze Hopper 4G+ (NC-2312)",
+      "sku": "1000833614",
+      "price": 13590,
+      "currency": "RUB",
+      "stocks": {
+        "Москва": 30
+      }
+    },
+    {
+      "name": "Netcraze Launcher (NC-1221)",
+      "sku": "1000850819",
+      "price": 2150,
+      "currency": "RUB",
+      "stocks": {
+        "Москва": 100
+      }
+    },
+    {
+      "name": "Netcraze Atlas SE (NC-4310)",
+      "sku": "1000875681",
+      "price": 15990,
+      "currency": "RUB",
+      "stocks": {
+        "Москва": 100
+      }
+    },
+    {
+      "name": "Netcraze Orbiter 6 (NAP-630)",
+      "sku": "1000833616",
+      "price": 11190,
+      "currency": "RUB",
+      "stocks": {
+        "Москва": 100
+      }
+    },
+    {
+      "name": "Netcraze PoE+ Adapter (NPA-150)",
+      "sku": "1000860441",
+      "price": 1590,
+      "currency": "RUB",
+      "stocks": {
+        "Москва": 100
+      }
+    },
+    {
+      "name": "Netcraze Racer (NC-4010)",
+      "sku": "1000850823",
+      "price": 6390,
+      "currency": "RUB",
+      "stocks": {
+        "Москва": 100
+      }
+    },
+    {
+      "name": "Netcraze Sprinter (NC-3711)",
+      "sku": "1000850825",
+      "price": 9030,
+      "currency": "RUB",
+      "stocks": {
+        "Москва": 100
+      }
+    },
+    {
+      "name": "Netcraze Sprinter SE (NC-3712)",
+      "sku": "1000850827",
+      "price": 8790,
+      "currency": "RUB",
+      "stocks": {
+        "Москва": 100
+      }
+    },
+    {
+      "name": "Netcraze Starter (NC-1121)",
+      "sku": "1000833622",
+      "price": 1510,
+      "currency": "RUB",
+      "stocks": {
+        "Москва": 100
+      }
+    },
+    {
+      "name": "Netcraze Stellar 6 (NAP-650)",
+      "sku": "1000859230",
+      "price": 15990,
+      "currency": "RUB",
+      "stocks": {
+        "Москва": 100
+      }
+    },
+    {
+      "name": "Netcraze Titan SE (NC-4210)",
+      "sku": "1000871400",
+      "price": 19190,
+      "currency": "RUB",
+      "stocks": {
+        "Москва": 100
+      }
+    },
+    {
+      "name": "Netcraze Ultra (NC-1812)",
+      "sku": "1000833618",
+      "price": 16470,
+      "currency": "RUB",
+      "stocks": {
+        "Москва": 100
+      }
+    },
+    {
+      "name": "Netcraze Viva (NC-1913)",
+      "sku": "1000833619",
+      "price": 5830,
+      "currency": "RUB",
+      "stocks": {
+        "Москва": 100
+      }
+    }
+  ]
 }
