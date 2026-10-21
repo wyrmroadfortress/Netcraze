@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21T07:45:05.231837+00:00",
+  "updated_at": "2026-10-21T08:00:07.040427+00:00",
   "products": [
     {
       "name": "Netcraze 4G (NC-1213)",
@@ -8,6 +8,15 @@
       "currency": "RUB",
       "stocks": {
         "Москва": 100
+      }
+    },
+    {
+      "name": "Netcraze Air (NC-1613)",
+      "sku": "1000833623",
+      "price": 3350,
+      "currency": "RUB",
+      "stocks": {
+        "Москва": 83
       }
     },
     {
@@ -83,6 +92,15 @@
       }
     },
     {
+      "name": "Netcraze Giga (NC-1012)",
+      "sku": "1000833620",
+      "price": 12790,
+      "currency": "RUB",
+      "stocks": {
+        "Москва": 100
+      }
+    },
+    {
       "name": "Netcraze Hopper (NC-3811)",
       "sku": "1000850828",
       "price": 9830,
@@ -98,6 +116,15 @@
       "currency": "RUB",
       "stocks": {
         "Москва": 27
+      }
+    },
+    {
+      "name": "Netcraze Hopper SE (NC-3812)",
+      "sku": "1000850829",
+      "price": 9590,
+      "currency": "RUB",
+      "stocks": {
+        "Москва": 100
       }
     },
     {
@@ -140,6 +167,33 @@
       "name": "Netcraze Racer (NC-4010)",
       "sku": "1000850823",
       "price": 6390,
+      "currency": "RUB",
+      "stocks": {
+        "Москва": 100
+      }
+    },
+    {
+      "name": "Netcraze Runner 4G (NC-2212)",
+      "sku": "1000833617",
+      "price": 7190,
+      "currency": "RUB",
+      "stocks": {
+        "Москва": 100
+      }
+    },
+    {
+      "name": "Netcraze Speedster (NC-3013)",
+      "sku": "1000833621",
+      "price": 5510,
+      "currency": "RUB",
+      "stocks": {
+        "Москва": 100
+      }
+    },
+    {
+      "name": "Netcraze Speedster 4G+ (NC-2911)",
+      "sku": "1000833615",
+      "price": 10790,
       "currency": "RUB",
       "stocks": {
         "Москва": 100
