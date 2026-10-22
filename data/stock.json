@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T14:00:05.249383+00:00",
+  "updated_at": "2026-10-22T14:15:02.759812+00:00",
   "products": [
     {
       "name": "Netcraze 4G (NC-1213)",
@@ -143,15 +143,6 @@
       "currency": "RUB",
       "stocks": {
         "Москва": 100
-      }
-    },
-    {
-      "name": "Netcraze Hero 5G (NC-4110)",
-      "sku": "1000838250",
-      "price": 19990,
-      "currency": "RUB",
-      "stocks": {
-        "Москва": 1
       }
     },
     {
