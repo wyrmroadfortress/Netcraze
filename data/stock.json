@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T14:00:02.838882+00:00",
+  "updated_at": "2026-10-23T14:15:02.862377+00:00",
   "products": [
     {
       "name": "Netcraze 4G (NC-1213)",
@@ -26,6 +26,15 @@
       "currency": "RUB",
       "stocks": {
         "Москва": 89
+      }
+    },
+    {
+      "name": "Netcraze Buddy 6 (NC-3411)",
+      "sku": "1000850830",
+      "price": 5270,
+      "currency": "RUB",
+      "stocks": {
+        "Москва": 96
       }
     },
     {
@@ -137,12 +146,30 @@
       }
     },
     {
+      "name": "Netcraze Orbiter 5 (NAP-530)",
+      "sku": "1000875926",
+      "price": 8790,
+      "currency": "RUB",
+      "stocks": {
+        "Москва": 100
+      }
+    },
+    {
+      "name": "Netcraze Orbiter 7 (NAP-730)",
+      "sku": "1000875928",
+      "price": 13190,
+      "currency": "RUB",
+      "stocks": {
+        "Москва": 64
+      }
+    },
+    {
       "name": "Netcraze Orbiter 6 (NAP-630)",
       "sku": "1000833616",
       "price": 11190,
       "currency": "RUB",
       "stocks": {
-        "Москва": 67
+        "Москва": 100
       }
     },
     {
@@ -203,6 +230,15 @@
       "name": "Netcraze Sprinter SE (NC-3712)",
       "sku": "1000850827",
       "price": 8790,
+      "currency": "RUB",
+      "stocks": {
+        "Москва": 100
+      }
+    },
+    {
+      "name": "Netcraze Start (NC-1112)",
+      "sku": "1000834700",
+      "price": 1910,
       "currency": "RUB",
       "stocks": {
         "Москва": 100
