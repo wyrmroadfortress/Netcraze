@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T09:00:02.637428+00:00",
+  "updated_at": "2026-10-23T09:15:03.262200+00:00",
   "products": [
     {
       "name": "Netcraze 4G (NC-1213)",
@@ -35,6 +35,15 @@
       "currency": "RUB",
       "stocks": {
         "Москва": 89
+      }
+    },
+    {
+      "name": "Netcraze Buddy 6 (NC-3411)",
+      "sku": "1000850830",
+      "price": 5270,
+      "currency": "RUB",
+      "stocks": {
+        "Удаленные склады": 96
       }
     },
     {
@@ -115,7 +124,7 @@
       "price": 13590,
       "currency": "RUB",
       "stocks": {
-        "Москва": 100
+        "Москва": 98
       }
     },
     {
@@ -143,6 +152,24 @@
       "currency": "RUB",
       "stocks": {
         "Москва": 100
+      }
+    },
+    {
+      "name": "Netcraze Orbiter 5 (NAP-530)",
+      "sku": "1000875926",
+      "price": 8790,
+      "currency": "RUB",
+      "stocks": {
+        "Удаленные склады": 100
+      }
+    },
+    {
+      "name": "Netcraze Orbiter 7 (NAP-730)",
+      "sku": "1000875928",
+      "price": 13190,
+      "currency": "RUB",
+      "stocks": {
+        "Удаленные склады": 100
       }
     },
     {
@@ -215,6 +242,15 @@
       "currency": "RUB",
       "stocks": {
         "Москва": 100
+      }
+    },
+    {
+      "name": "Netcraze Start (NC-1112)",
+      "sku": "1000834700",
+      "price": 1910,
+      "currency": "RUB",
+      "stocks": {
+        "Удаленные склады": 100
       }
     },
     {
