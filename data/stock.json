@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27T23:00:02.415222+00:00",
+  "updated_at": "2026-10-27T23:15:04.524889+00:00",
   "products": [
     {
       "name": "Netcraze Buddy 5 (NC-3311)",
@@ -11,30 +11,12 @@
       }
     },
     {
-      "name": "Netcraze Buddy 6 (NC-3411)",
-      "sku": "1000850830",
-      "price": 5270,
-      "currency": "RUB",
-      "stocks": {
-        "Москва": 32
-      }
-    },
-    {
       "name": "Netcraze Buddy 6 SE (NC-4410)",
       "sku": "1000849935",
       "price": 5270,
       "currency": "RUB",
       "stocks": {
         "Москва": 100
-      }
-    },
-    {
-      "name": "Netcraze Carrier (NC-1721)",
-      "sku": "1000850822",
-      "price": 3030,
-      "currency": "RUB",
-      "stocks": {
-        "Москва": 30
       }
     },
     {
@@ -80,15 +62,6 @@
       "currency": "RUB",
       "stocks": {
         "Москва": 68
-      }
-    },
-    {
-      "name": "Netcraze Hopper SE (NC-3812)",
-      "sku": "1000850829",
-      "price": 9590,
-      "currency": "RUB",
-      "stocks": {
-        "Москва": 79
       }
     },
     {
@@ -179,15 +152,6 @@
       "currency": "RUB",
       "stocks": {
         "Москва": 100
-      }
-    },
-    {
-      "name": "Netcraze Start (NC-1112)",
-      "sku": "1000834700",
-      "price": 1910,
-      "currency": "RUB",
-      "stocks": {
-        "Москва": 32
       }
     },
     {
