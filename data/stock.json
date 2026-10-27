@@ -1,31 +1,13 @@
 {
-  "updated_at": "2026-10-27T12:45:02.903518+00:00",
+  "updated_at": "2026-10-27T13:00:05.059511+00:00",
   "products": [
-    {
-      "name": "Netcraze 4G (NC-1213)",
-      "sku": "1000850818",
-      "price": 2630,
-      "currency": "RUB",
-      "stocks": {
-        "Москва": 30
-      }
-    },
-    {
-      "name": "Netcraze Buddy 4 (NC-3211)",
-      "sku": "1000849932",
-      "price": 1990,
-      "currency": "RUB",
-      "stocks": {
-        "Москва": 18
-      }
-    },
     {
       "name": "Netcraze Buddy 5 (NC-3311)",
       "sku": "1000849933",
       "price": 3510,
       "currency": "RUB",
       "stocks": {
-        "Москва": 86
+        "Москва": 66
       }
     },
     {
@@ -34,7 +16,7 @@
       "price": 5270,
       "currency": "RUB",
       "stocks": {
-        "Москва": 59
+        "Москва": 39
       }
     },
     {
@@ -53,15 +35,6 @@
       "currency": "RUB",
       "stocks": {
         "Москва": 100
-      }
-    },
-    {
-      "name": "Netcraze Challenger (NC-3910)",
-      "sku": "1000849931",
-      "price": 6950,
-      "currency": "RUB",
-      "stocks": {
-        "Москва": 4
       }
     },
     {
@@ -88,7 +61,7 @@
       "price": 12790,
       "currency": "RUB",
       "stocks": {
-        "Москва": 82
+        "Москва": 62
       }
     },
     {
@@ -115,16 +88,7 @@
       "price": 9590,
       "currency": "RUB",
       "stocks": {
-        "Москва": 89
-      }
-    },
-    {
-      "name": "Netcraze Launcher (NC-1221)",
-      "sku": "1000850819",
-      "price": 2150,
-      "currency": "RUB",
-      "stocks": {
-        "Москва": 27
+        "Москва": 79
       }
     },
     {
@@ -196,7 +160,7 @@
       "price": 10790,
       "currency": "RUB",
       "stocks": {
-        "Москва": 9
+        "Москва": 100
       }
     },
     {
@@ -223,7 +187,7 @@
       "price": 1910,
       "currency": "RUB",
       "stocks": {
-        "Москва": 100
+        "Москва": 72
       }
     },
     {
