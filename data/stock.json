@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T05:00:03.553905+00:00",
+  "updated_at": "2026-10-28T05:15:04.199101+00:00",
   "products": [
     {
       "name": "Netcraze Buddy 5 (NC-3311)",
@@ -13,7 +13,7 @@
     {
       "name": "Netcraze Buddy 6 SE (NC-4410)",
       "sku": "1000849935",
-      "price": 5270,
+      "price": 5510,
       "currency": "RUB",
       "stocks": {
         "Москва": 100
@@ -148,7 +148,7 @@
     {
       "name": "Netcraze Sprinter SE (NC-3712)",
       "sku": "1000850827",
-      "price": 8790,
+      "price": 9270,
       "currency": "RUB",
       "stocks": {
         "Москва": 100
