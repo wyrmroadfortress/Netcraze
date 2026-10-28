@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T08:45:03.339374+00:00",
+  "updated_at": "2026-10-28T09:00:06.002776+00:00",
   "products": [
     {
       "name": "Netcraze Buddy 5 (NC-3311)",
@@ -56,6 +56,15 @@
       }
     },
     {
+      "name": "Netcraze Extra (NC-1714)",
+      "sku": "1000850821",
+      "price": 3990,
+      "currency": "RUB",
+      "stocks": {
+        "Удаленные склады": 100
+      }
+    },
+    {
       "name": "Netcraze Giga (NC-1012)",
       "sku": "1000833620",
       "price": 12790,
@@ -79,7 +88,7 @@
       "price": 13590,
       "currency": "RUB",
       "stocks": {
-        "Москва": 57
+        "Москва": 55
       }
     },
     {
