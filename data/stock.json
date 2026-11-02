@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02T06:00:03.204706+00:00",
+  "updated_at": "2026-11-02T06:15:02.656704+00:00",
   "products": [
     {
       "name": "Netcraze Air (NC-1613)",
@@ -79,7 +79,7 @@
       "price": 7990,
       "currency": "RUB",
       "stocks": {
-        "Москва": 65
+        "Москва": 64
       }
     },
     {
@@ -92,21 +92,12 @@
       }
     },
     {
-      "name": "Netcraze Giga (NC-1012)",
-      "sku": "1000833620",
-      "price": 12790,
-      "currency": "RUB",
-      "stocks": {
-        "Москва": 3
-      }
-    },
-    {
       "name": "Netcraze Hopper (NC-3811)",
       "sku": "1000850828",
       "price": 9830,
       "currency": "RUB",
       "stocks": {
-        "Москва": 47
+        "Москва": 37
       }
     },
     {
@@ -214,7 +205,7 @@
       "price": 9030,
       "currency": "RUB",
       "stocks": {
-        "Москва": 52
+        "Москва": 42
       }
     },
     {
