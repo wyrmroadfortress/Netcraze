@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T12:15:02.842865+00:00",
+  "updated_at": "2026-11-05T12:30:03.708998+00:00",
   "products": [
     {
       "name": "Netcraze 4G (NC-1213)",
@@ -14,6 +14,15 @@
       "name": "Netcraze Air (NC-1613)",
       "sku": "1000833623",
       "price": 3510,
+      "currency": "RUB",
+      "stocks": {
+        "Москва": 100
+      }
+    },
+    {
+      "name": "Netcraze Atlas SE (NC-4310)",
+      "sku": "1000875681",
+      "price": 15990,
       "currency": "RUB",
       "stocks": {
         "Москва": 100
@@ -140,15 +149,6 @@
       "name": "Netcraze Launcher (NC-1221)",
       "sku": "1000850819",
       "price": 2230,
-      "currency": "RUB",
-      "stocks": {
-        "Москва": 100
-      }
-    },
-    {
-      "name": "Netcraze Atlas SE (NC-4310)",
-      "sku": "1000875681",
-      "price": 15990,
       "currency": "RUB",
       "stocks": {
         "Москва": 100
