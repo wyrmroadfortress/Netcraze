@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17T23:00:02.790609+00:00",
+  "updated_at": "2026-11-17T23:15:03.235606+00:00",
   "products": [
     {
       "name": "Netcraze 4G (NC-1213)",
@@ -133,7 +133,7 @@
       "price": 13590,
       "currency": "RUB",
       "stocks": {
-        "Москва": 10
+        "Москва": 9
       }
     },
     {
@@ -266,15 +266,6 @@
       "name": "Netcraze Titan SE (NC-4210)",
       "sku": "1000871400",
       "price": 19190,
-      "currency": "RUB",
-      "stocks": {
-        "Москва": 100
-      }
-    },
-    {
-      "name": "Netcraze Ultra (NC-1812)",
-      "sku": "1000833618",
-      "price": 16470,
       "currency": "RUB",
       "stocks": {
         "Москва": 100
