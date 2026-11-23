@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23T22:15:04.396951+00:00",
+  "updated_at": "2026-11-23T22:30:03.703069+00:00",
   "products": [
     {
       "name": "Netcraze Air (NC-1613)",
@@ -98,6 +98,15 @@
       "currency": "RUB",
       "stocks": {
         "Москва": 100
+      }
+    },
+    {
+      "name": "Netcraze Giga (NC-1012)",
+      "sku": "1000833620",
+      "price": 12790,
+      "currency": "RUB",
+      "stocks": {
+        "Москва": 1
       }
     },
     {
