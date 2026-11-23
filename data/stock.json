@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23T12:00:03.593044+00:00",
+  "updated_at": "2026-11-23T12:15:03.484170+00:00",
   "products": [
     {
       "name": "Netcraze Air (NC-1613)",
@@ -124,7 +124,7 @@
       "price": 13590,
       "currency": "RUB",
       "stocks": {
-        "Москва": 3
+        "Москва": 2
       }
     },
     {
@@ -269,6 +269,15 @@
       "currency": "RUB",
       "stocks": {
         "Москва": 56
+      }
+    },
+    {
+      "name": "Netcraze Ultra (NC-1812)",
+      "sku": "1000833618",
+      "price": 16470,
+      "currency": "RUB",
+      "stocks": {
+        "Москва": 100
       }
     },
     {
