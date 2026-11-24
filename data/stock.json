@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24T12:45:05.505975+00:00",
+  "updated_at": "2026-11-24T13:00:03.654099+00:00",
   "products": [
     {
       "name": "Netcraze Air (NC-1613)",
@@ -133,7 +133,7 @@
       "price": 10070,
       "currency": "RUB",
       "stocks": {
-        "Москва": 63
+        "Москва": 61
       }
     },
     {
@@ -143,6 +143,24 @@
       "currency": "RUB",
       "stocks": {
         "Москва": 100
+      }
+    },
+    {
+      "name": "Netcraze 2.5G Switch 5 (NS-1005M)",
+      "sku": "1000888900",
+      "price": 3510,
+      "currency": "RUB",
+      "stocks": {
+        "Удаленные склады": 70
+      }
+    },
+    {
+      "name": "Netcraze 2.5G Switch 8 (NS-1008M)",
+      "sku": "1000888901",
+      "price": 5110,
+      "currency": "RUB",
+      "stocks": {
+        "Удаленные склады": 70
       }
     },
     {
