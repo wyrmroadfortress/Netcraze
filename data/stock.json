@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25T13:45:03.522079+00:00",
+  "updated_at": "2026-11-25T14:00:06.167286+00:00",
   "products": [
     {
       "name": "Netcraze 4G (NC-1213)",
@@ -8,15 +8,6 @@
       "currency": "RUB",
       "stocks": {
         "Москва": 33
-      }
-    },
-    {
-      "name": "Netcraze Air (NC-1613)",
-      "sku": "1000833623",
-      "price": 3510,
-      "currency": "RUB",
-      "stocks": {
-        "Москва": 40
       }
     },
     {
@@ -97,7 +88,7 @@
       "price": 7990,
       "currency": "RUB",
       "stocks": {
-        "Москва": 31
+        "Москва": 21
       }
     },
     {
